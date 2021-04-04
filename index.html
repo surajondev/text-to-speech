@@ -14,21 +14,30 @@
 
     <main>
         <div>
-            <p class="lead text-light mt-4">Select Voice</p>
-            <!-- Select Menu for Voice -->
+            <h2>Select Voice</h2>
             <select id="voices" class="form-select bg-secondary text-light"></select>
-            <input type="text" id="input-text" placeholder="Enter Text">
+        </div>
+
+        <div>
+            <input type="text" id="input-text" placeholder="Enter Text">  
+            <br>              
             <button onclick="textToAudio()">Speech</button>
-            <br>
+        </div>
+    
+        <div>
             <h2>Volume</h2>
             <input type="range" min="1" max="10" value="5" id="volumeRange">
-            <br>
+        </div>
+
+        <div>
             <h2>Rate</h2>
             <input type="range" min="1" max="10" value="5" id="rateRange">
-            <br>
+        </div>
+
+        <div>
             <h2>Pitch</h2>
             <input type="range" min="1" max="20" value="10" id="pitchRange">
-        </div> 
+        </div>
     </main>
 
     <script src="script.js"></script>

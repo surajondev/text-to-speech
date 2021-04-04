@@ -25,7 +25,7 @@ main{
     margin: 2em 0;
 }
 
-input{
+input, select{
     padding:10px;
     width: 300px;
     border-radius: 5px;
@@ -35,7 +35,7 @@ input{
 }
 
 div{
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 button{
