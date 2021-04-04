@@ -16,7 +16,7 @@ header{
 
 h2{
     font-family: sans-serif;
-    margin-top: 0.5em;
+    margin: 0.5em;
     color: #f0c38e;
 }
 
@@ -39,6 +39,7 @@ div{
 }
 
 button{
+    margin-top:1em;
     padding:14px 20px;
     background-color: #6a67ce;
     color: #FFFFFF;
