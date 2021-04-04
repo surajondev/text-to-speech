@@ -1,6 +1,7 @@
-You can convert text into speech . Click Here to see the website [Text-to-Speech](https://surajondev.github.io/robo-friends/)
+You can convert text into speech . Click Here to see the website [Text-to-Speech](https://text-to-speeech.netlify.app/)
+Recommended to use on PC
 
-## Following languages have been used
+## Following languages have been usedhttps://text-to-speeech.netlify.app/
 - <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /> HTML
 - <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /> CSS
 - <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /> JavaScript
