@@ -14,7 +14,6 @@
 ## Things we love to merge in our repo
 
 - Improving UI
-- Adding Charts and Graphs
-- More info on Covid-19
+- Mobile Compatibility
 
 
