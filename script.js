@@ -33,3 +33,8 @@
       window.speechSynthesis.speak(speech);
     }
 
+	function reset() {
+      document.getElementById('volumeRange').value = 5;
+      document.getElementById('rateRange').value = 5;
+      document.getElementById('pitchRange').value = 10;
+	}
