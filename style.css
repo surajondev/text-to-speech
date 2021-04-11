@@ -10,7 +10,7 @@ header{
     background-color: #312c51;
     color: #f1aa9b;
     text-align: center;
-    padding: 2em;
+    padding: 0.1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -20,19 +20,37 @@ header{
     justify-content:space-evenly;
 }
 
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+      color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
 .header-button-flex{
     margin-top: -0.75em;
 }
 
-h2{
+h2,h1{
     font-family: sans-serif;
-    margin: 0.5em;
+    font-size: 1em;
+    text-align: left;
     color: #f0c38e;
 }
 
-main{
+h1{
+    font-size: 2em;
     text-align: center;
-    margin: 2em 0;
 }
 
 .container{
@@ -40,11 +58,13 @@ main{
     padding: 1em;
     border-radius: 1em;
     width: 90%;
-    margin: 0 auto;
+    margin: 2em auto;
     display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
 }
 
-input, select{
+input, select, textarea{
     padding:10px;
     width: 300px;
     border-radius: 5px;
@@ -53,9 +73,15 @@ input, select{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+textarea{
+    padding: 0;
+}
+
 div{
     margin: 20px 0;
 }
+
+
 
 button{
     margin-top:1em;
@@ -65,5 +91,24 @@ button{
     border: 0px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.contribute{
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+    background-color:cornflowerblue;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+img{
+    height: 10%;
+    width: 10%;
 }
 

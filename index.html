@@ -12,8 +12,8 @@
         <div class="header-item">
             <h1>Text To Speech</h1>
             <div class="header-button-flex">
-                <button class="header-btn">Github</button>
-                <button class="header-btn">Fork</button>
+                <button class="header-btn"><a href="https://github.com/surajondev/text-to-speech">Github</a></button>
+                <button class="header-btn"><a href="https://github.com/surajondev/text-to-speech/blob/master/CONTRIBUTION.md">Contribution</a></button>
             </div>
         </div>
     </header>
@@ -27,9 +27,9 @@
                 </div>
 
                 <div>
-                    <textarea  id="input-text" placeholder="Enter Text" cols="40%" rows="15%"></textarea>
-                    <br>              
-                    <button onclick="textToAudio()">Speech</button>
+                    <h2>Message</h2>
+                    <textarea  id="input-text" placeholder="Enter Text" cols="40%" rows="11%"></textarea>            
+                    
                 </div>
             </div>
 
@@ -50,8 +50,18 @@
                 </div>
 
                 <div>
+                    <button onclick="textToAudio()">Speech</button>
                     <button onclick="reset()">Reset</button>
                 </div>
+            </div>
+        </div>
+
+        <div class="container contribute">
+            <div class="title">
+                <h1>Contributors</h1>
+            </div>
+            <div class="contributors">
+                <img src="https://avatars.githubusercontent.com/surajondev">
             </div>
         </div>
     </main>
