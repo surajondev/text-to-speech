@@ -97,6 +97,10 @@ button{
     flex-direction: column;
 }
 
+.contributors{
+    text-align: center;
+}
+
 li{
     list-style: none;
 }
@@ -110,5 +114,20 @@ li{
 img{
     height: 10%;
     width: 10%;
+    border-radius: 50%;
 }
 
+
+@media (max-width:800px){
+    .container{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    div{
+        margin: 20px auto;
+    }
+    button{
+        margin-top: 0 auto;
+    }
+}
