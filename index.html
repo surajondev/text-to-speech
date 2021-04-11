@@ -9,38 +9,50 @@
 </head>
 <body>
     <header>
-        <h1>Text to Speech</h1>
+        <div class="header-item">
+            <h1>Text To Speech</h1>
+            <div class="header-button-flex">
+                <button class="header-btn">Github</button>
+                <button class="header-btn">Fork</button>
+            </div>
+        </div>
     </header>
 
     <main>
-        <div>
-            <h2>Select Voice</h2>
-            <select id="voices" class="form-select bg-secondary text-light"></select>
-        </div>
+        <div class="container">
+            <div>
+                <div>
+                    <h2>Select Voice</h2>
+                    <select id="voices" class="form-select bg-secondary text-light"></select>
+                </div>
 
-        <div>
-            <input type="text" id="input-text" placeholder="Enter Text">  
-            <br>              
-            <button onclick="textToAudio()">Speech</button>
-        </div>
-    
-        <div>
-            <h2>Volume</h2>
-            <input type="range" min="1" max="10" value="5" id="volumeRange">
-        </div>
+                <div>
+                    <textarea  id="input-text" placeholder="Enter Text" cols="40%" rows="15%"></textarea>
+                    <br>              
+                    <button onclick="textToAudio()">Speech</button>
+                </div>
+            </div>
 
-        <div>
-            <h2>Rate</h2>
-            <input type="range" min="1" max="10" value="5" id="rateRange">
-        </div>
+            <div>
+                <div>
+                    <h2>Volume</h2>
+                    <input type="range" min="1" max="10" value="5" id="volumeRange">
+                </div>
 
-        <div>
-            <h2>Pitch</h2>
-            <input type="range" min="1" max="20" value="10" id="pitchRange">
-        </div>
+                <div>
+                    <h2>Rate</h2>
+                    <input type="range" min="1" max="10" value="5" id="rateRange">
+                </div>
 
-        <div>
-            <button onclick="reset()">Reset</button>
+                <div>
+                    <h2>Pitch</h2>
+                    <input type="range" min="1" max="20" value="10" id="pitchRange">
+                </div>
+
+                <div>
+                    <button onclick="reset()">Reset</button>
+                </div>
+            </div>
         </div>
     </main>
 
