@@ -15,8 +15,10 @@ header, footer{
 }
 
 footer{
+    margin-bottom: -1.2em;
     padding: 1em;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .header-item{
@@ -111,7 +113,6 @@ li{
 }
 
 ul{
-    margin: 0 auto;
     text-align: left;
 }
 
