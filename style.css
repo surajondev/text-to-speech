@@ -6,12 +6,17 @@
 body{
     background-color: #48426d;
 }
-header{
+header, footer{
     background-color: #312c51;
     color: #f1aa9b;
     text-align: center;
     padding: 0.1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    padding: 1em;
+    display: flex;
 }
 
 .header-item{
@@ -105,6 +110,11 @@ li{
     list-style: none;
 }
 
+ul{
+    margin: 0 auto;
+    text-align: left;
+}
+
 .title{
     background-color:cornflowerblue;
     padding: 0.5em;
@@ -116,6 +126,7 @@ img{
     width: 10%;
     border-radius: 50%;
 }
+
 
 
 @media (max-width:800px){
