@@ -28,8 +28,6 @@
       speech.rate = rate;
       speech.pitch = pitch;
 
-      console.log(msg)
-
       window.speechSynthesis.speak(speech);
     }
 
