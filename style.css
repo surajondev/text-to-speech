@@ -29,20 +29,22 @@ footer{
 
 a:link {
     text-decoration: none;
-  }
-  
-  a:visited {
-      color: white;
+}
+a:-webkit-any-link {
+    color: white;
+}
+a:visited {
+    color: white;
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     text-decoration: underline;
-  }
+}
   
-  a:active {
+a:active {
     text-decoration: underline;
-  }
+}
 
 .header-button-flex{
     margin-top: -0.75em;
@@ -128,7 +130,14 @@ img{
     border-radius: 50%;
 }
 
+img.social-icon{
+    height: 1em;
+    width: auto;
+}
 
+ul li a p{
+    display: inline;
+}
 
 @media (max-width:800px){
     .container{
