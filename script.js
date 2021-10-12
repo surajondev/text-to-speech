@@ -36,3 +36,9 @@
       document.getElementById('rateRange').value = 5;
       document.getElementById('pitchRange').value = 10;
 	}
+
+  var menuButton = document.getElementById("menu-icon");
+  menuButton.addEventListener('click', evt => {
+    var menuMobile = document.getElementById("menu-mobile");
+    menuMobile.classList.toggle("show");
+  })
