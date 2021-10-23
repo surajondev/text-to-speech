@@ -256,7 +256,10 @@ h1 {
     padding: 0.5em;
     border-radius: 0.5em;
 }
-
+p{
+    font-size: 15px;
+    color: #b80c09;
+}
 
 /* Container */
 
@@ -309,5 +312,6 @@ h1 {
     .menu-icon {
         height: 20px;
         display: block;
+        color: black;
     }
 }
