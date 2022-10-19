@@ -6,9 +6,17 @@
 }
 
 body {
-    background-color: #fbfbff;
+    text-align: center;
+    background-color: #818ff4;
 }
 
+h1{
+  
+    font-size: 50px;
+    font-family: tapestry, cursive;
+    color:#e57812;
+    
+}
 input,
 select,
 textarea {
@@ -123,8 +131,7 @@ footer ul li {
     padding: 0;
     margin: 0;
     height: 100%;
-    align-items: center;
-    color: white;
+    color: rgb(150, 61, 213);
 }
 
 .header-menu {
@@ -137,14 +144,14 @@ footer ul li {
     margin: 10px;
     padding-bottom: 25px;
     height: 50%;
-    background-color: #b80c09;
+    background-color: #36d53e;
     border-radius: 5px;
     transition: 0.3s;
 }
 
 .header-btn:hover,
 .header-btn-mobile:hover {
-    background-color: #dd2b21;
+    background-color: #27cd93;
 }
 
 .menu-icon {
@@ -174,9 +181,9 @@ input[type="range"]::-webkit-slider-thumb {
     height: 15px;
     width: 15px;
     margin-top: -5px;
-    border: 2px solid #b80c09;
+    border: 2px solid #20b7e1;
     border-radius: 50%;
-    background: #b80c09;
+    background: #19c6d3;
     cursor: pointer;
     -webkit-appearance: none;
 }
@@ -186,7 +193,7 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
 }
 
 input[type="range"]:focus::-webkit-slider-range-track {
-    background: #b80c09;
+    background: #10afc8;
 }
 
 .menu-mobile.show {
@@ -241,14 +248,12 @@ h2,
 h1 {
     font-family: sans-serif;
     font-size: 1em;
-    text-align: left;
-    color: #b80c09;
+    text-align: center;
+    color: #100710;
 }
 
-h1 {
-    font-size: 2em;
-    text-align: center;
-    color: #b80c09;
+h1{
+    font-size: 2em;;
 }
 
 .title {
@@ -258,7 +263,7 @@ h1 {
 }
 p{
     font-size: 15px;
-    color: #b80c09;
+    color: #09080c;
 }
 
 /* Container */
