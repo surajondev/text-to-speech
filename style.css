@@ -8,6 +8,7 @@
 body {
     text-align: center;
     background-color: #818ff4;
+    background-color: #b3b3c5;
 }
 
 h1{
@@ -250,6 +251,9 @@ h1 {
     font-size: 1em;
     text-align: center;
     color: #100710;
+    font-size: 1.5em;
+    text-align: left;
+    color: #b80c09;
 }
 
 h1{
@@ -265,11 +269,14 @@ p{
     font-size: 15px;
     color: #09080c;
 }
-
+.help {
+    text-align: center;
+    font-size: 1.5em;
+}
 /* Container */
 
 .container {
-    background-color: #feecec;
+    background-color:  #b9a5a5;
     padding: 1em;
     border-radius: 1em;
     width: 90%;
@@ -296,7 +303,6 @@ p{
 .contributors {
     text-align: center;
 }
-
 
 /* Media queries */
 
