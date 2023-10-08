@@ -6,27 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon">
-    <title>text-to-speech</title>
+    <link rel="shortcut icon" href="icons/text-to-speech.png" type="image/x-icon">
+
+    <title>Text To Speech</title>
 </head>
 <!-- loding function for mobile devices -->
 
 <body onload="textToAudio()">
     <header>
         <div class="header-item">
-            <h1>Text To Speech</h1>
+            <h1 class="title">Text To Speech</h1>
             <div class="header-menu">
-                <a href="https://github.com/surajondev/text-to-speech" target="_blank"><button class="header-btn">Github</button></a>
-                <a href="https://github.com/surajondev/text-to-speech/blob/master/CONTRIBUTION.md" target="_blank"><button class="header-btn">Contribution</button></a>
+                <a href="https://github.com/surajondev/text-to-speech" target="_blank"><button class="header-btn">GITHUB REPO</button></a>
+                <a href="https://github.com/surajondev/text-to-speech/blob/master/CONTRIBUTION.md" target="_blank"><button class="header-btn">CONTRIBUTION</button></a>
             </div>
             <img src="icons/bars-solid.svg" id="menu-icon" class="menu-icon" alt="menu" />
         </div>
     </header>
      <div class="message">
-        <h1>Hey there, Easily convert your texts to speech with this app, Write your message and click on speech!Leggo</h1>
-        <a href="https://github.com/diwuracreatives/text-to-speech"> <p class="help">Hey there, Easily convert your texts to speech with app, Write your message and click on speech! Leggo</p>
+        <h1>Hey there, Easily convert your text to speech with this app, Write your message and click on speech!</h1>
+        <!-- <a href="https://github.com/diwuracreatives/text-to-speech"> <p class="help">Hey there, Easily convert your texts to speech with app, Write your message and click on speech! Leggo</p> -->
      </div>
-     <a href="https://github.com/diwuracreatives/text-to-speech"><p>CLICK HERE TO ACCESS REPO</p></a>
+     <!-- <a href="https://github.com/diwuracreatives/text-to-speech"><p>CLICK HERE TO ACCESS REPO</p></a> -->
     <div class="menu-mobile" id="menu-mobile">
         <a href="https://github.com/surajondev/text-to-speech"><button class="header-btn-mobile">Github</button></a>
         <a href="https://github.com/surajondev/text-to-speech/blob/master/CONTRIBUTION.md"><button class="header-btn-mobile">Contribution</button></a>
@@ -36,43 +37,41 @@
         <div class="container">
             <div class="form">
                 <div>
-                    <h2>Select Voice</h2>
+                    <h2 class="vt">Select Voice</h2>
                     <select id="voices" class="form-select bg-secondary text-light"></select>
                 </div>
-
                 <div>
-                    <h2>Message</h2>
+                    <h2 class="vt" >Message</h2>
                     <textarea id="input-text" placeholder="Enter Text" cols="40%" rows="11%"></textarea>
 
                 </div>
             </div>
 
             <div>
-                <div>
-                    <h2>Volume</h2>
+                <div >
+                    <h2 class="inputs">Volume</h2>
                     <input type="range" min="1" max="10" value="5" id="volumeRange">
                 </div>
 
                 <div>
-                    <h2>Rate</h2>
+                    <h2 class="inputs">Rate</h2>
                     <input type="range" min="1" max="10" value="5" id="rateRange">
                 </div>
 
                 <div>
-                    <h2>Pitch</h2>
+                    <h2 class="inputs">Pitch</h2>
                     <input type="range" min="1" max="20" value="10" id="pitchRange">
                 </div>
 
-                <div>
-                    <button onclick="textToAudio()">Speech</button>
-                    <button onclick="reset()">Reset</button>
+                <div class="set">
+                    <button class="final" onclick="textToAudio()">Speech</button>
+                    <button class="final" onclick="reset()">Reset</button>
                 </div>
             </div>
         </div>
 
-        <div class="containerr contribute">
+        <div class="contribute">
             <h1>Contributors</h1>
-
             <div class="contributors">
                 <a href="https://github.com/surajondev/" target="_blank">
                     <img src="https://avatars.githubusercontent.com/surajondev">
@@ -88,29 +87,9 @@
     </main>
 
     <footer>
+        <h3>Contact Me</h3>
         <ul>
-            <h3>Github</h3>
-            <li>
-                <a href="https://github.com/surajondev/text-to-speech#readme">
-                    <img src="icons/file.svg" class="social-icon" />
-                    <p>ReadMe</p>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/surajondev/text-to-speech/fork">
-                    <img src="icons/repo-forked.svg" class="social-icon" />
-                    <p>Fork Repository</p>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/surajondev/text-to-speech/blob/master/CONTRIBUTION.md">
-                    <img src="icons/git-pull-request.svg" class="social-icon" />
-                    <p>Contribution Guidelines</p>
-                </a>
-            </li>
-        </ul>
-        <ul>
-            <h3>Contact</h3>
+
             <li>
                 <a href="https://twitter.com/surajondev">
                     <img src="icons/Twitter social icons - circle - white.png" class="social-icon" />
@@ -124,6 +103,7 @@
                 </a>
             </li>
         </ul>
+        <p>Made with &#10084 by SurajOnDev</p>
     </footer>
 
     <script src="script.js"></script>
